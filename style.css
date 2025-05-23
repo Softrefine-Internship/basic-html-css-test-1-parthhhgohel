@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+
+.box {
+    background-color: rgb(221, 221, 221);
+}
+
+.box1 {
+    text-align: center;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+clearfix::after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.box2 {
+    width: 50%;
+    height: 100px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.innner-box3{
+    margin: 50px auto;
+}
+
+.box3 {
+    width: 49.5%;
+    height: 700px;
+    display: inline-block;
+}
+
+.box4 {
+    width: 49.5%;
+    height: 700px;
+    float: right;
+    /* clear: both; */
+}
+
+.box5 {
+    width: 60%;
+    height: 100px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.inner-box4 {
+    clear: both;
+    overflow: hidden;
+    margin: 0 150px;
+}
+
+.inner4 {
+    width: 23%;
+    height: 275px;
+    background: #ccc;
+    float: left;
+    margin: 1%;
+}
+
+.box13 {
+    float: right;
+}
+
+.box14 {
+    width: 70%;
+    height: 100px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.inner-box5{
+    background-color: rgb(221, 221, 221);
+    margin: 50px auto;
+    padding: 40px 0;
+}
+
+.inner-inner{
+    /* border: 2px solid red; */
+    background-color: white;
+    width: 30%;
+    height: 600px;
+    margin: 10px 16px;
+    padding: 20px;
+    float: left;
+}
+
+.first{
+    height: 50px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.square{
+    height: 37%;
+    width: 90%;
+    margin: 30px auto;
+}
+
+.inner-inner-box {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.box24{
+    height: 100px;
+    width: 30%;
+    margin: 50px auto;
+}
+
+.inner-box6{
+    width: 40%;
+    margin: 25px auto;
+}
+
+.box25, .box26, .box27{
+    height: 100px;
+    margin: 10px auto;
+}
+
+.box28{
+    height: 200px;
+    margin: 10px auto;
+}
+
+.box29, .box30{
+    height: 100px;
+    margin-top: 20px;
+    width: 49%;
+    float: left;
+}
+.box30{
+    float: right;
+}
+
+.inner-box7{
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 0 40px;
+    height: 300px;
+    background-color: rgb(221, 221, 221);
+}
+
+.box31, .box32{
+    margin: 30px auto;
+    width: 49%;
+    height: 80%;
+    float: left;
+    background-color: white;
+}
+
+.box32{
+    float: right;
+}
